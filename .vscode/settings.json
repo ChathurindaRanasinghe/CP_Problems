@@ -1,0 +1,6 @@
+{
+    "editor.fontWeight": "normal",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontFamily": "Roboto Mono",
+    "terminal.integrated.fontWeight" : "normal"
+}
