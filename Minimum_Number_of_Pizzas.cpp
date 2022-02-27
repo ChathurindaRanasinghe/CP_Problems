@@ -11,6 +11,6 @@ int main()
     cin >> tt;
     while (tt--){
         int n,k; cin >> n >> k;
-        cout << n / __gcd(n,k)<< nl;
+        cout << n / __gcd(n,k) << nl;
     }
 }

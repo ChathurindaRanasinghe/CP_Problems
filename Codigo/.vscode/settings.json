@@ -1,0 +1,13 @@
+{
+    "editor.fontWeight": "normal",
+    "editor.fontSize": 16,
+    "files.associations": {
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "chrono": "cpp",
+        "random": "cpp",
+        "regex": "cpp",
+        "bit": "cpp",
+        "fstream": "cpp"
+    }
+}

@@ -2,9 +2,6 @@
 using namespace std;
 
 #define nl "\n"
-#define yes "YES"
-#define no "NO"
-
 
 int main()
 {
@@ -13,6 +10,11 @@ int main()
     int tt;
     cin >> tt;
     while (tt--){
+        int l,r;
+        cin >> l  >> r;
+        
+
+        cout << 2*r - 2*l + 1 << nl; 
         
     }
 }

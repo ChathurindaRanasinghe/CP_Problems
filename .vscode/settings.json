@@ -1,6 +1,10 @@
 {
+    "editor.fontFamily": "Roboto Mono",
     "editor.fontWeight": "normal",
     "editor.fontSize": 15,
     "terminal.integrated.fontFamily": "Roboto Mono",
-    "terminal.integrated.fontWeight" : "normal"
+    "terminal.integrated.fontWeight": "normal",
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }

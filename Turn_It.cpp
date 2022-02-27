@@ -2,9 +2,6 @@
 using namespace std;
 
 #define nl "\n"
-#define yes "YES"
-#define no "NO"
-
 
 int main()
 {
@@ -13,6 +10,8 @@ int main()
     int tt;
     cin >> tt;
     while (tt--){
-        
+        int u,v,a,s;
+        cin >> u >> v >> a >> s;
+        cout << (v*v >= u*u - 2*a*s? "YES":"NO") << nl;
     }
 }
