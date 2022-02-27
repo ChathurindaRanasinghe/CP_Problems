@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define nl "\n"
-
 int main()
 {
     ios::sync_with_stdio(false);
@@ -10,6 +8,9 @@ int main()
     int tt;
     cin >> tt;
     while (tt--){
-        
+        int n,s;
+        cin >> n >> s;
+        cout << (n>=s? s:2*n-s) << endl;
+     
     }
 }

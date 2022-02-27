@@ -10,6 +10,7 @@ int main()
     int tt;
     cin >> tt;
     while (tt--){
-        
+        int n,k; cin >> n >> k;
+        cout << n / __gcd(n,k)<< nl;
     }
 }
