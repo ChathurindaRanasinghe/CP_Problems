@@ -1,10 +1,14 @@
 {
-    "editor.fontFamily": "Roboto Mono",
+    "editor.fontSize": 12,
+    "editor.fontFamily": "consolas",
     "editor.fontWeight": "normal",
-    "editor.fontSize": 15,
-    "terminal.integrated.fontFamily": "Roboto Mono",
+
+    "terminal.integrated.fontFamily": "consolas",
     "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontSize": 12,
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "iosfwd": "cpp"
     }
 }

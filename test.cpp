@@ -1,19 +1,9 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-
-int decibinToDec(int n){
-    int i = 0;int ans = 0;
-    while(n != 0){
-        int a = n%10;
-        n /= 10;
-        ans += a * pow(2,i);
-        i++;
-    }
-    return ans;
-}
-
 int main(){
-    cout << decibinToDec(100);
-
+	freopen("output.txt","w",stdout);
+	for(int i=0;i<100000;i++){
+		cout << i << " \tXOR\t " << i+1 << "\t = " <<( i^(i+1)) << endl;
+	}
 }
